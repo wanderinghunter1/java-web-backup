@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>Servlet.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/Servlet/MyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InsertServlet</servlet-name>
+        <servlet-class>Servlet.InsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertServlet</servlet-name>
+        <url-pattern>/Servlet/InsertServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>Servlet.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/Servlet/DeleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateServlet</servlet-name>
+        <servlet-class>Servlet.UpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateServlet</servlet-name>
+        <url-pattern>/Servlet/UpdateServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>Servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/Servlet/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ToInsertServlet</servlet-name>
+        <servlet-class>Servlet.ToInsertServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ToInsertServlet</servlet-name>
+        <url-pattern>/Servlet/ToInsertServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>HomePageServlet</servlet-name>
+        <servlet-class>Servlet.HomePageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomePageServlet</servlet-name>
+        <url-pattern>/Servlet/HomePageServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ToTextServlet</servlet-name>
+        <servlet-class>Servlet.ToTextServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ToTextServlet</servlet-name>
+        <url-pattern>/Servlet/ToTextServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserSpaceServlet</servlet-name>
+        <servlet-class>Servlet.UserSpaceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserSpaceServlet</servlet-name>
+        <url-pattern>/Servlet/UserSpaceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CommitServlet</servlet-name>
+        <servlet-class>Servlet.CommitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CommitServlet</servlet-name>
+        <url-pattern>/Servlet/CommitServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DeleteCommitServlet</servlet-name>
+        <servlet-class>Servlet.DeleteCommitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCommitServlet</servlet-name>
+        <url-pattern>/Servlet/DeleteCommitServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>LikeServlet</servlet-name>
+        <servlet-class>Servlet.LikeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LikeServlet</servlet-name>
+        <url-pattern>/Servlet/LikeServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UpLoadServlet</servlet-name>
+        <servlet-class>Servlet.UpLoadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpLoadServlet</servlet-name>
+        <url-pattern>/Servlet/UpLoadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteTextServlet</servlet-name>
+        <servlet-class>Servlet.DeleteTextServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteTextServlet</servlet-name>
+        <url-pattern>/Servlet/DeleteTextServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>WarningServlet</servlet-name>
+        <servlet-class>Servlet.WarningServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WarningServlet</servlet-name>
+        <url-pattern>/Servlet/WarningServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ShowWarningServlet</servlet-name>
+        <servlet-class>Servlet.ShowWarningServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowWarningServlet</servlet-name>
+        <url-pattern>/Servlet/ShowWarningServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SolveWarningServlet</servlet-name>
+        <servlet-class>Servlet.SolveWarningServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SolveWarningServlet</servlet-name>
+        <url-pattern>/Servlet/SolveWarningServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SolveTitleServlet</servlet-name>
+        <servlet-class>Servlet.SolveTitleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SolveTitleServlet</servlet-name>
+        <url-pattern>/Servlet/SolveTitleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>Servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/Servlet/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ZonePageServlet</servlet-name>
+        <servlet-class>Servlet.ZonePageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ZonePageServlet</servlet-name>
+        <url-pattern>/Servlet/ZonePageServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteWarningOwnerServlet</servlet-name>
+        <servlet-class>Servlet.DeleteWarningOwnerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteWarningOwnerServlet</servlet-name>
+        <url-pattern>/Servlet/DeleteWarningOwnerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UnDeleteServlet</servlet-name>
+        <servlet-class>Servlet.UnDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UnDeleteServlet</servlet-name>
+        <url-pattern>/Servlet/UnDeleteServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
